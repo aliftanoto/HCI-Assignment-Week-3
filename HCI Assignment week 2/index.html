@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI ASSIGNMENT-02</title>
+    <style>
+        h1{
+            text-align: center;
+            
+        }
+        body{
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        School Data
+    </h1>
+    <form>
+        <fieldset>
+        <table border="1">
+        <tr>
+        <td>   
+          <label for="firstname">First Name: </label>
+          <input type="text" name="firstname" required>
+             
+           <br>
+         
+         <label for="lastname">Last Name: </label>
+         <input type="text" name="firstname" required>
+         
+         <br>
+         <label for="email">email: </label>
+         <input type="email" name="email" required>
+         <br>
+         <label for="password">Password: </label>
+         <input type="password" name="password" minlength="4" maxlength="10" required>
+         <br>
+         <input type="submit" value="Login!">
+         </td>
+        </tr>
+        </table>
+    
+         <hr size="15" color="12">
+        </form>
+    <table border="1">
+     <tr>
+     <td>     
+         <label for="name">Name</label>
+         <input type="text" id="name">
+         <br>
+         <label for="age">Age</label>
+         <input type="number" id="age">
+    <br>
+    <br>
+         <input type="checkbox" id="male" value="male">
+         <label for="male">Male</label><br>
+         <input type="checkbox" id="female" value="female">
+         <label for="female">Female</label><br>
+    </td>
+    </tr>
+</fieldset>
+     </table>
+    <br>
+    <hr size="15" color="10">
+    <table border="1">
+        <label>Personal Data</label>
+        <tr>
+            <th></th>
+            <th colspan="2">Last 2 Education</th>
+            <th>Hobby</th>
+            <th>Indonesian/Foreign</th>
+            <th>Address</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <td><input type="text" name="" id="" required></td>
+            <td><input type="text"></td>
+            <td><input type="text" required></td>
+            <td rowspan="2"><label for="Indonesian">Indonesian</label>
+                <input type="radio" name="Indonesian" id="Indonesian" value="Indonesian" checked>
+                <label for="Foreigner">Foreigner</label>
+                <input type="radio" name="Foreigner" id="Foreigner" value="Foreigner"> </td>
+            <td><input type="text" name="" id="" required></td> 
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <td><input type="text" name="" id="" required></td>
+            <td><input type="text" name="" id="" required></td>
+            <td><input type="text" name="" id="" required></td>
+            <td><input type="text" name="" id="" required></td>
+            <td><input type="submit"></td>
+        </tr>
+    
+        
+</body>
+</html>
